@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+header {
+    background-color: #99CCFF; /* Verde */
+    color: #000000;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container {
+    width: 90%;
+    max-width: 900px; /* Largura máxima para a tabela */
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+h2 {
+    text-align: center;
+    color: #00334D;
+    margin-bottom: 25px;
+}
+
+/* Estilos da Tabela */
+table {
+    width: 100%; /* Faz a tabela ocupar toda a largura disponível no container */
+    border-collapse: collapse; /* Remove o espaçamento entre as bordas das células */
+    margin: 0 auto; /* Centraliza a tabela no container */
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px; /* Bordas arredondadas para a tabela */
+    overflow: hidden; /* Garante que as bordas arredondadas funcionem corretamente */
+}
+
+/* Estilo para cabeçalho e células de dados */
+th, td {
+    padding: 12px 15px;
+    text-align: left; /* Alinha o texto à esquerda */
+    border-bottom: 1px solid #ddd; /* Linha de separação entre as linhas */
+}
+
+/* Estilo específico para o cabeçalho da tabela */
+thead th {
+    background-color: #198CFF; /* Fundo verde para o cabeçalho */
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase; /* Texto em maiúsculas */
+}
+
+/* Efeito zebrado nas linhas do corpo da tabela para melhor legibilidade */
+tbody tr:nth-child(even) {
+    background-color: #CCEEFF; /* Fundo cinza claro para linhas pares */
+}
+
+/* Efeito hover nas linhas do corpo */
+tbody tr:hover {
+    background-color: #CCFFFF;
+}
+
+/* Estilo para o rodapé da tabela */
+tfoot td {
+    background-color: #ccc; /* Fundo cinza para o rodapé */
+    font-weight: bold;
+    text-align: right; /* Alinha o texto do rodapé à direita */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #66B3FF;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
